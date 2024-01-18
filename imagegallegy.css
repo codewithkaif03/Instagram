@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    padding: 10%;
+}
+.picture{
+    display: flex;
+    width: 30%;
+    height: 250px;
+    gap: 10px;
+}
+.picture>img{
+    width: 30%;
+    height: 300px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+img:hover{
+    width: 100%;
+    scale: 1.1;
+}
